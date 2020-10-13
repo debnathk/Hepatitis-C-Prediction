@@ -11,7 +11,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import cross_val_score
 from joblib import dump, load
 
-
+#Loadind Data
 hcv = pd.read_csv("hcv.csv")
 #print(hcv)
 
