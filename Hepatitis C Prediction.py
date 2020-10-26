@@ -19,6 +19,7 @@ hcv = pd.read_csv("hcv.csv")
 train_set, test_set = train_test_split(hcv, test_size = 0.2, random_state = 42)
 #print(f"Rows in train_set: {len(train_set)}\nRows in test_set: {len(test_set)}")
 
+#Feature Selection
 hcv = train_set.drop("Category", axis = 1)
 hcv_labels = train_set["Category"].copy()
 
