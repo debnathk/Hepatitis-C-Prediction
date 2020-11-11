@@ -71,6 +71,7 @@ final_rmse = np.sqrt(final_mse)
 #print(final_rmse)
 #Y_test
 
+# Using the model
 X_test_prepared[0]
 #from joblib import dump, load
 #import numpy as np
