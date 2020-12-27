@@ -13,7 +13,6 @@ from joblib import dump, load
 
 #Loadind Data
 hcv = pd.read_csv("hcv.csv")
-#print(hcv)
 
 #Train-Test Splitting
 train_set, test_set = train_test_split(hcv, test_size = 0.2, random_state = 42)
